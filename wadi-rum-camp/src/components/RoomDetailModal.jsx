@@ -16,7 +16,7 @@ export default function RoomDetailModal({
               src={selectedRoom.images[roomImageIndex[selectedRoom.id] || 0]}
               alt={selectedRoom.name}
               loading="lazy"
-              className="w-full h-48 sm:h-64 object-cover rounded-t-xl sm:rounded-t-2xl"
+              className="w-full h-48 sm:h-64 object-cover sm:object-contain sm:bg-gray-100 rounded-t-xl sm:rounded-t-2xl"
             />
           <button
             onClick={() => setSelectedRoom(null)}
