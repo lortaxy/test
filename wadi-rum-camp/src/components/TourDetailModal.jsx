@@ -106,7 +106,7 @@ export default function TourDetailModal({
       <div className="bg-white rounded-2xl max-w-5xl w-full my-8" onClick={(e) => e.stopPropagation()}>
         <div className="relative">
           <img
-            src={selectedTour.id === 1 ? "/WhatsApp Image 2026-01-29 at 15.24.14 (1).jpeg" : gallery[selectedTour.id]}
+            src={selectedTour.id === 1 ? `${import.meta.env.BASE_URL}WhatsApp Image 2026-01-29 at 15.24.14 (1).jpeg` : gallery[selectedTour.id]}
             alt={displayName}
             loading="lazy"
             className="w-full h-48 sm:h-56 object-cover rounded-t-2xl"

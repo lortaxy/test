@@ -72,9 +72,9 @@ export default function Footer({ t }) {
         <div className="border-t border-amber-800 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-amber-100 font-light">
           <p>© {new Date().getFullYear()} {t.footerCopyright}</p>
           <div className="mt-3 flex flex-wrap justify-center gap-4">
-            <a href="/privacy-policy.html" className="hover:text-white transition-colors duration-200">{t.privacyTitle}</a>
-            <a href="/terms-of-use.html" className="hover:text-white transition-colors duration-200">{t.termsTitle}</a>
-            <a href="/cookie-notice.html" className="hover:text-white transition-colors duration-200">{t.cookiesTitle}</a>
+            <a href={`${import.meta.env.BASE_URL}privacy-policy.html`} className="hover:text-white transition-colors duration-200">{t.privacyTitle}</a>
+            <a href={`${import.meta.env.BASE_URL}terms-of-use.html`} className="hover:text-white transition-colors duration-200">{t.termsTitle}</a>
+            <a href={`${import.meta.env.BASE_URL}cookie-notice.html`} className="hover:text-white transition-colors duration-200">{t.cookiesTitle}</a>
           </div>
         </div>
       </div>

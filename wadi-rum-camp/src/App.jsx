@@ -206,7 +206,7 @@ export default function App() {
         className="min-h-screen sm:h-screen bg-cover bg-center flex items-end justify-center relative overflow-hidden pt-16"
         style={{
           backgroundImage:
-            "url('/hero.jpeg')",
+            `url('${import.meta.env.BASE_URL}hero.jpeg')`,
           backgroundAttachment: "fixed",
           backgroundSize: "cover",
         }}

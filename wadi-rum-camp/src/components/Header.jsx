@@ -34,7 +34,7 @@ export default function Header({
         <div className="flex justify-between items-center h-20 sm:h-24">
           <div className="flex-shrink-0 min-w-0">
             <a href="#hero" className="flex items-center">
-              <img src="/Gemini_Generated_Image_a4w9bqa4w9bqa4w9 (1).png" alt="Logo" className="h-16 sm:h-20 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
+              <img src={`${import.meta.env.BASE_URL}Gemini_Generated_Image_a4w9bqa4w9bqa4w9 (1).png`} alt="Logo" className="h-16 sm:h-20 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity" />
             </a>
           </div>
 
