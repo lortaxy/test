@@ -120,6 +120,28 @@ export default function Header({
                   {item.key === "roomsTitle" ? t.roomsTitle : t[item.key]}
                 </a>
               ))}
+              <div className="flex items-center justify-center gap-6 pt-3 pb-2 border-t border-amber-100 mt-3">
+                <a
+                  href={SOCIAL_LINKS.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-amber-700 hover:text-amber-900 transition-colors duration-200"
+                  title="Facebook"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  <FaFacebook size={24} />
+                </a>
+                <a
+                  href={SOCIAL_LINKS.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-amber-700 hover:text-amber-900 transition-colors duration-200"
+                  title="Instagram"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  <FaInstagram size={24} />
+                </a>
+              </div>
             </nav>
           </div>
         )}

@@ -188,16 +188,15 @@ export default function App() {
       {/* HERO SECTION - Desert Image */}
       <section
         id="hero"
-        className="min-h-screen sm:h-screen bg-cover bg-center flex items-end justify-center relative overflow-hidden pt-16"
+        className="min-h-screen bg-cover bg-center flex items-end justify-center relative overflow-hidden"
         style={{
-          backgroundImage:
-            `url('${import.meta.env.BASE_URL}hero.jpeg')`,
-          backgroundAttachment: "fixed",
+          backgroundImage: `url('${import.meta.env.BASE_URL}hero.jpeg')`,
           backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-        <div className="relative z-10 text-center px-4 max-w-3xl mx-auto pb-16 sm:pb-20">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+        <div className="relative z-10 text-center px-4 max-w-3xl mx-auto pb-16 sm:pb-20 pt-32 sm:pt-0">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-light mb-3 sm:mb-4 text-white leading-tight">
             {t.title}
           </h1>

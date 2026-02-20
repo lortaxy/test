@@ -8,15 +8,16 @@ export default function RoomDetailModal({
   if (!selectedRoom) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4 overflow-y-auto" onClick={() => setSelectedRoom(null)}>
-      <div className="bg-white rounded-2xl max-w-2xl w-full my-8" onClick={(e) => e.stopPropagation()}>
-        <div className="relative">
-          <img
-            src={selectedRoom.images[roomImageIndex[selectedRoom.id] || 0]}
-            alt={selectedRoom.name}
-            loading="lazy"
-            className="w-full h-64 object-contain bg-gray-100 rounded-t-2xl"
-          />
+    <div className="fixed inset-0 bg-black/80 z-50 overflow-y-auto" onClick={() => setSelectedRoom(null)}>
+      <div className="min-h-screen px-4 py-4 sm:py-8 flex items-start sm:items-center justify-center">
+        <div className="bg-white rounded-xl sm:rounded-2xl max-w-2xl w-full" onClick={(e) => e.stopPropagation()}>
+          <div className="relative">
+            <img
+              src={selectedRoom.images[roomImageIndex[selectedRoom.id] || 0]}
+              alt={selectedRoom.name}
+              loading="lazy"
+              className="w-full h-48 sm:h-64 object-cover rounded-t-xl sm:rounded-t-2xl"
+            />
           <button
             onClick={() => setSelectedRoom(null)}
             className="absolute top-4 right-4 bg-white/90 hover:bg-white text-amber-900 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
@@ -55,17 +56,17 @@ export default function RoomDetailModal({
             </>
           )}
         </div>
-        <div className="p-8">
-          <h2 className="text-3xl font-light text-amber-900 mb-2">{selectedRoom.name}</h2>
-          <p className="text-amber-700 font-light mb-6">{selectedRoom.capacity}</p>
-          <p className="text-amber-800 leading-relaxed font-light mb-6">{selectedRoom.description}</p>
+        <div className="p-4 sm:p-6 md:p-8">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-light text-amber-900 mb-2">{selectedRoom.name}</h2>
+          <p className="text-sm sm:text-base text-amber-700 font-light mb-4 sm:mb-6">{selectedRoom.capacity}</p>
+          <p className="text-sm sm:text-base text-amber-800 leading-relaxed font-light mb-4 sm:mb-6">{selectedRoom.description}</p>
 
-          <div className="mb-8">
-            <div className="bg-green-50 border border-green-200 rounded-lg p-3">
-              <h3 className="text-sm font-medium text-amber-900 mb-2">{t.amenities}</h3>
-              <ul className="grid grid-cols-2 md:grid-cols-3 gap-1">
+          <div className="mb-4 sm:mb-6">
+            <div className="bg-green-50 border border-green-200 rounded-lg p-3 sm:p-4">
+              <h3 className="text-xs sm:text-sm font-medium text-amber-900 mb-2">{t.amenities}</h3>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1.5 sm:gap-2">
                 {selectedRoom.amenities.map((amenity, i) => (
-                  <li key={i} className="text-amber-800 font-light text-xs flex items-start">
+                  <li key={i} className="text-amber-800 font-light text-xs sm:text-sm flex items-start">
                     <span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-2 mt-1 flex-shrink-0"></span>
                     <span>{amenity}</span>
                   </li>
@@ -75,12 +76,12 @@ export default function RoomDetailModal({
           </div>
 
           {selectedRoom.images.length > 1 && (
-            <div className="flex justify-center gap-2 mb-8">
+            <div className="flex justify-center gap-2 mb-4 sm:mb-6">
               {selectedRoom.images.map((_, i) => (
                 <button
                   key={i}
                   onClick={() => setRoomImageIndex({ ...roomImageIndex, [selectedRoom.id]: i })}
-                  className={`w-3 h-3 rounded-full transition-all ${
+                  className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all ${
                     i === (roomImageIndex[selectedRoom.id] || 0) ? "bg-amber-900" : "bg-amber-300"
                   }`}
                 />
@@ -88,18 +89,19 @@ export default function RoomDetailModal({
             </div>
           )}
 
-          <div className="flex items-center justify-between border-t border-amber-100 pt-6">
-            <p className="text-3xl font-light text-amber-900">
-              {selectedRoom.price} JOD <span className="text-lg font-light text-amber-700">{t.pricePerNight}</span>
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-t border-amber-100 pt-4 sm:pt-6">
+            <p className="text-2xl sm:text-3xl font-light text-amber-900">
+              {selectedRoom.price} JOD <span className="text-base sm:text-lg font-light text-amber-700">{t.pricePerNight}</span>
             </p>
             <a
               href="#booking"
               onClick={() => setSelectedRoom(null)}
-              className="bg-amber-900 hover:bg-amber-800 text-white font-medium py-3 px-8 rounded-xl transition-all duration-300"
+              className="w-full sm:w-auto text-center bg-amber-900 hover:bg-amber-800 text-white font-medium py-2.5 sm:py-3 px-6 sm:px-8 rounded-lg sm:rounded-xl transition-all duration-300"
             >
               {t.bookNow}
             </a>
           </div>
+        </div>
         </div>
       </div>
     </div>
