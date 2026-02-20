@@ -131,6 +131,11 @@ export default function App() {
     const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
     const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
+    if (!serviceId || !templateId || !publicKey) {
+      setNotification("❌ Booking email is not configured yet. Please use WhatsApp for now.");
+      return;
+    }
+
     const templateParams = {
       from_name: form.name,
       from_email: form.email,
