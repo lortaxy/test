@@ -14,18 +14,21 @@ export default function GalleryModal({ expandedGallery, setExpandedGallery, gall
           <button
             onClick={() => setExpandedGallery(null)}
             className="absolute top-4 right-4 bg-white/90 hover:bg-white text-amber-900 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+            aria-label="Close gallery"
           >
             ✕
           </button>
           <button
             onClick={() => setExpandedGallery((prev) => (prev === 0 ? gallery.length - 1 : prev - 1))}
             className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-amber-900 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+            aria-label="Previous image"
           >
             ←
           </button>
           <button
             onClick={() => setExpandedGallery((prev) => (prev === gallery.length - 1 ? 0 : prev + 1))}
             className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-amber-900 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+            aria-label="Next image"
           >
             →
           </button>
@@ -36,6 +39,7 @@ export default function GalleryModal({ expandedGallery, setExpandedGallery, gall
               key={i}
               onClick={() => setExpandedGallery(i)}
               className={`h-3 rounded-full transition-all ${i === expandedGallery ? "bg-white w-8" : "bg-white/50 w-3"}`}
+              aria-label={`Go to image ${i + 1}`}
             />
           ))}
         </div>

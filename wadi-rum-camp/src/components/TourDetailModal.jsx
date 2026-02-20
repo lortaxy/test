@@ -114,6 +114,7 @@ export default function TourDetailModal({
           <button
             onClick={() => setSelectedTour(null)}
             className="absolute top-4 right-4 bg-white/90 hover:bg-white text-amber-900 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+            aria-label="Close tour details"
           >
             ✕
           </button>

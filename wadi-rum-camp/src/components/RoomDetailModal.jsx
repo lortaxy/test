@@ -20,6 +20,7 @@ export default function RoomDetailModal({
           <button
             onClick={() => setSelectedRoom(null)}
             className="absolute top-4 right-4 bg-white/90 hover:bg-white text-amber-900 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+            aria-label="Close room details"
           >
             ✕
           </button>
@@ -34,6 +35,7 @@ export default function RoomDetailModal({
                   });
                 }}
                 className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-amber-900 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+                aria-label="Previous room image"
               >
                 ←
               </button>
@@ -46,6 +48,7 @@ export default function RoomDetailModal({
                   });
                 }}
                 className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-amber-900 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+                aria-label="Next room image"
               >
                 →
               </button>

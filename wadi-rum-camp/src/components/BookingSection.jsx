@@ -73,6 +73,7 @@ export default function BookingSection({
                         ? "text-yellow-700 hover:text-yellow-900"
                         : "text-red-500 hover:text-red-700"
                   }`}
+                  aria-label="Close notification"
                 >
                   ✕
                 </button>
@@ -80,32 +81,45 @@ export default function BookingSection({
             )}
 
             <div className="grid md:grid-cols-2 gap-3 sm:gap-4">
-              <input
-                name="name"
-                placeholder={t.fullname}
-                value={form.name}
-                onChange={handleChange}
-                className="col-span-full bg-amber-50 border border-amber-100 rounded-lg sm:rounded-xl p-3 sm:p-4 text-sm sm:text-base text-amber-900 placeholder-amber-500 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 font-light"
-              />
-              <input
-                name="email"
-                type="email"
-                placeholder={t.email}
-                value={form.email}
-                onChange={handleChange}
-                className="col-span-full md:col-span-1 bg-amber-50 border border-amber-100 rounded-lg sm:rounded-xl p-3 sm:p-4 text-sm sm:text-base text-amber-900 placeholder-amber-500 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 font-light"
-              />
-              <input
-                name="phone"
-                type="tel"
-                placeholder={t.phoneNumber}
-                value={form.phone || ""}
-                onChange={handleChange}
-                className="col-span-full md:col-span-1 bg-amber-50 border border-amber-100 rounded-lg sm:rounded-xl p-3 sm:p-4 text-sm sm:text-base text-amber-900 placeholder-amber-500 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 font-light"
-              />
-              <div className="col-span-full md:col-span-1">
-                <label className="text-sm sm:text-base text-amber-600 mb-1 block text-center font-light">{t.checkIn}</label>
+              <div className="col-span-full">
+                <label htmlFor="name" className="sr-only">{t.fullname}</label>
                 <input
+                  id="name"
+                  name="name"
+                  placeholder={t.fullname}
+                  value={form.name}
+                  onChange={handleChange}
+                  className="w-full bg-amber-50 border border-amber-100 rounded-lg sm:rounded-xl p-3 sm:p-4 text-sm sm:text-base text-amber-900 placeholder-amber-700 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 font-light"
+                />
+              </div>
+              <div className="col-span-full md:col-span-1">
+                <label htmlFor="email" className="sr-only">{t.email}</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder={t.email}
+                  value={form.email}
+                  onChange={handleChange}
+                  className="w-full bg-amber-50 border border-amber-100 rounded-lg sm:rounded-xl p-3 sm:p-4 text-sm sm:text-base text-amber-900 placeholder-amber-700 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 font-light"
+                />
+              </div>
+              <div className="col-span-full md:col-span-1">
+                <label htmlFor="phone" className="sr-only">{t.phoneNumber}</label>
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  placeholder={t.phoneNumber}
+                  value={form.phone || ""}
+                  onChange={handleChange}
+                  className="w-full bg-amber-50 border border-amber-100 rounded-lg sm:rounded-xl p-3 sm:p-4 text-sm sm:text-base text-amber-900 placeholder-amber-700 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 font-light"
+                />
+              </div>
+              <div className="col-span-full md:col-span-1">
+                <label htmlFor="checkIn" className="text-sm sm:text-base text-amber-600 mb-1 block text-center font-light">{t.checkIn}</label>
+                <input
+                  id="checkIn"
                   name="checkIn"
                   type="date"
                   value={form.checkIn}
@@ -115,8 +129,9 @@ export default function BookingSection({
                 />
               </div>
               <div className="col-span-full md:col-span-1">
-                <label className="text-sm sm:text-base text-amber-600 mb-1 block text-center font-light">{t.checkOut}</label>
+                <label htmlFor="checkOut" className="text-sm sm:text-base text-amber-600 mb-1 block text-center font-light">{t.checkOut}</label>
                 <input
+                  id="checkOut"
                   name="checkOut"
                   type="date"
                   value={form.checkOut}
@@ -128,46 +143,58 @@ export default function BookingSection({
             </div>
 
             <div className="grid md:grid-cols-2 gap-3 sm:gap-4">
-              <input
-                name="guests"
-                type="number"
-                placeholder={t.guests}
-                value={form.guests}
-                onChange={handleChange}
-                min="1"
-                className="bg-amber-50 border border-amber-100 rounded-lg sm:rounded-xl p-3 sm:p-4 text-sm sm:text-base text-amber-900 placeholder-amber-500 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 font-light"
-              />
-              <select
-                name="room"
-                value={form.room}
-                onChange={handleChange}
-                className="bg-amber-50 border border-amber-100 rounded-xl p-4 text-amber-900 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 font-light"
-              >
-                <option value="">{t.room}</option>
-                <option>{t.roomSingleName}</option>
-                <option>{t.roomDoubleName}</option>
-                <option>{t.roomFamilyName}</option>
-              </select>
+              <div>
+                <label htmlFor="guests" className="sr-only">{t.guests}</label>
+                <input
+                  id="guests"
+                  name="guests"
+                  type="number"
+                  placeholder={t.guests}
+                  value={form.guests}
+                  onChange={handleChange}
+                  min="1"
+                  className="w-full bg-amber-50 border border-amber-100 rounded-lg sm:rounded-xl p-3 sm:p-4 text-sm sm:text-base text-amber-900 placeholder-amber-700 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 font-light"
+                />
+              </div>
+              <div>
+                <label htmlFor="room" className="sr-only">{t.room}</label>
+                <select
+                  id="room"
+                  name="room"
+                  value={form.room}
+                  onChange={handleChange}
+                  className="w-full bg-amber-50 border border-amber-100 rounded-xl p-4 text-amber-900 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 font-light"
+                >
+                  <option value="">{t.room}</option>
+                  <option>{t.roomSingleName}</option>
+                  <option>{t.roomDoubleName}</option>
+                  <option>{t.roomFamilyName}</option>
+                </select>
+              </div>
             </div>
 
-            <select
-              name="tour"
-              value={form.tour}
-              onChange={handleChange}
-              className="w-full bg-amber-50 border border-amber-100 rounded-xl p-4 text-amber-900 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 font-light"
-            >
-              <option value="">{t.toursSelect}</option>
-              <option value="none">{t.noTourOption}</option>
-              <option value={t.bookingJeepFullDay}>{t.bookingJeepFullDay}</option>
-              <option value={t.bookingJeepHalfDay}>{t.bookingJeepHalfDay}</option>
-              <option value={t.bookingJeep3Hour}>{t.bookingJeep3Hour}</option>
-              <option value={t.bookingJeep2Hour}>{t.bookingJeep2Hour}</option>
-              <option value={t.bookingCamelSunrise}>{t.bookingCamelSunrise}</option>
+            <div>
+              <label htmlFor="tour" className="sr-only">{t.toursSelect}</label>
+              <select
+                id="tour"
+                name="tour"
+                value={form.tour}
+                onChange={handleChange}
+                className="w-full bg-amber-50 border border-amber-100 rounded-xl p-4 text-amber-900 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 font-light"
+              >
+                <option value="">{t.toursSelect}</option>
+                <option value="none">{t.noTourOption}</option>
+                <option value={t.bookingJeepFullDay}>{t.bookingJeepFullDay}</option>
+                <option value={t.bookingJeepHalfDay}>{t.bookingJeepHalfDay}</option>
+                <option value={t.bookingJeep3Hour}>{t.bookingJeep3Hour}</option>
+                <option value={t.bookingJeep2Hour}>{t.bookingJeep2Hour}</option>
+                <option value={t.bookingCamelSunrise}>{t.bookingCamelSunrise}</option>
               <option value={t.bookingCamelNight}>{t.bookingCamelNight}</option>
               <option value={t.bookingCamelOvernight}>{t.bookingCamelOvernight}</option>
               <option value={t.bookingHikingUmm}>{t.bookingHikingUmm}</option>
               <option value={t.bookingHikingBurdah}>{t.bookingHikingBurdah}</option>
             </select>
+            </div>
 
             <textarea
               name="message"
@@ -175,7 +202,7 @@ export default function BookingSection({
               value={form.message}
               onChange={handleChange}
               rows="4"
-              className="w-full bg-amber-50 border border-amber-100 rounded-xl p-4 text-amber-900 placeholder-amber-500 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 resize-none font-light"
+              className="w-full bg-amber-50 border border-amber-100 rounded-xl p-4 text-amber-900 placeholder-amber-700 focus:outline-none focus:border-amber-300 focus:ring-1 focus:ring-amber-200 transition-all duration-200 resize-none font-light"
             />
 
             <div className="flex gap-4 flex-col sm:flex-row justify-center pt-4">

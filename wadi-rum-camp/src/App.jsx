@@ -365,6 +365,7 @@ export default function App() {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                title="Wadi Rum Desert Wonders Camp Park location map"
               ></iframe>
             </div>
           </div>
@@ -379,6 +380,7 @@ export default function App() {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                title="Camp location map"
               ></iframe>
             </div>
           </div>
