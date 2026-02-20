@@ -1,4 +1,5 @@
 import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { BOOKING_LINKS, SITE_CONTACT, SOCIAL_LINKS } from "../config/site";
 
 export default function Footer({ t }) {
   return (
@@ -12,14 +13,14 @@ export default function Footer({ t }) {
           </div>
           <div>
             <h3 className="text-base sm:text-lg font-light mb-3 sm:mb-4">{t.contact}</h3>
-            <p className="text-xs sm:text-sm text-amber-100 font-light">Email: desertwonderscampwadirum@gmail.com</p>
-            <p className="text-xs sm:text-sm text-amber-100 font-light">Phone: +962 7 7656 9810</p>
+            <p className="text-xs sm:text-sm text-amber-100 font-light">Email: {SITE_CONTACT.email}</p>
+            <p className="text-xs sm:text-sm text-amber-100 font-light">Phone: {SITE_CONTACT.phoneDisplay}</p>
           </div>
           <div>
             <h3 className="text-base sm:text-lg font-light mb-3 sm:mb-4">{t.footerFollowUs}</h3>
             <div className="flex space-x-4">
               <a
-                href="https://www.facebook.com/profile.php?id=61587461497164"
+                href={SOCIAL_LINKS.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-amber-100 hover:text-white transition-colors duration-200"
@@ -28,7 +29,7 @@ export default function Footer({ t }) {
                 <FaFacebook size={20} />
               </a>
               <a
-                href="https://www.instagram.com/desertwonderscampwadirum/"
+                href={SOCIAL_LINKS.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-amber-100 hover:text-white transition-colors duration-200"
@@ -42,7 +43,7 @@ export default function Footer({ t }) {
             <h3 className="text-base sm:text-lg font-light mb-3 sm:mb-4">Also available on</h3>
             <div className="space-y-2">
               <a
-                href="https://www.booking.com/hotel/jo/wadi-rum-desert-wonders-camp-ldys.hr.html?aid=318615&label=New_English_EN_HR_27034596865-TuPNwxV7uxm4JdkpR_TY3gS637942140464%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atidsa-64415224945%3Alp9195867%3Ali%3Adec%3Adm%3Aag27034596865%3Acmp400849465&sid=37f901b9828656c97547326521791f04&dest_id=900062497&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1771513576&srpvid=92016a236d2003ca&type=total&ucfs=1&"
+                href={BOOKING_LINKS.booking}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs sm:text-sm text-amber-100 hover:text-white transition-colors duration-200 block"
@@ -50,7 +51,7 @@ export default function Footer({ t }) {
                 Booking.com
               </a>
               <a
-                href="https://www.expedia.com/Wadi-Rum-Hotels-Wadi-Rum-Desert-Wonders-Camp.h124912693.Hotel-Information"
+                href={BOOKING_LINKS.expedia}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs sm:text-sm text-amber-100 hover:text-white transition-colors duration-200 block"
@@ -58,7 +59,7 @@ export default function Footer({ t }) {
                 Expedia
               </a>
               <a
-                href="https://www.tripadvisor.com/Hotel_Review-g499126-d.html"
+                href={BOOKING_LINKS.tripadvisor}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs sm:text-sm text-amber-100 hover:text-white transition-colors duration-200 block"

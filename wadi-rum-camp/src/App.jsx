@@ -11,6 +11,7 @@ import GalleryModal from "./components/GalleryModal";
 import { flags, galleryImages } from "./data/media";
 import { getRooms } from "./data/rooms";
 import { getTourDetails } from "./data/tours";
+import { SITE_CONTACT } from "./config/site";
 export default function App() {
   const { i18n } = useTranslation();
   const currentLang = (i18n.resolvedLanguage || i18n.language || "en").split("-")[0];
@@ -80,8 +81,8 @@ export default function App() {
   const handleChange = (e) =>
     setForm({ ...form, [e.target.name]: e.target.value });
 
-  const whatsappLink =
-    `https://wa.me/962776569810?text=Hello!%20I'd%20like%20to%20book%20a%20stay.%0D%0AName:%20${form.name}%0D%0APhone:%20${form.phone}%0D%0ACheck-In:%20${form.checkIn}%0D%0ACheck-Out:%20${form.checkOut}%0D%0AGuests:%20${form.guests}%0D%0ARoom:%20${form.room}%0D%0ATour:%20${form.tour}`;
+  const whatsappMessage = `Hello! I'd like to book a stay.\nName: ${form.name}\nPhone: ${form.phone}\nCheck-In: ${form.checkIn}\nCheck-Out: ${form.checkOut}\nGuests: ${form.guests}\nRoom: ${form.room}\nTour: ${form.tour}`;
+  const whatsappLink = `https://wa.me/${SITE_CONTACT.whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
   const isFormValid = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -146,7 +147,7 @@ export default function App() {
       room: form.room,
       tour: form.tour,
       message: form.message,
-      to_email: 'desertwonderscampwadirum@gmail.com'
+      to_email: SITE_CONTACT.email,
     };
 
     try {

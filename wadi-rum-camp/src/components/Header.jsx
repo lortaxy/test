@@ -1,5 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { SOCIAL_LINKS } from "../config/site";
 
 const navigationItems = [
   { key: "home", href: "#hero" },
@@ -52,7 +53,7 @@ export default function Header({
           <div className="flex items-center space-x-2 sm:space-x-4">
             <div className="hidden md:flex items-center space-x-3">
               <a
-                href="https://www.facebook.com/profile.php?id=61587461497164"
+                href={SOCIAL_LINKS.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-amber-700 hover:text-amber-900 transition-colors duration-200"
@@ -61,7 +62,7 @@ export default function Header({
                 <FaFacebook size={18} />
               </a>
               <a
-                href="https://www.instagram.com/desertwonderscampwadirum/"
+                href={SOCIAL_LINKS.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-amber-700 hover:text-amber-900 transition-colors duration-200"
