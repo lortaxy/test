@@ -22,5 +22,5 @@ export const BOOKING_LINKS = {
     "https://www.expedia.com/Wadi-Rum-Hotels-Wadi-Rum-Desert-Wonders-Camp.h124912693.Hotel-Information",
   tripadvisor:
     import.meta.env.VITE_TRIPADVISOR_URL ??
-    "https://www.tripadvisor.com/Hotel_Review-g499126-d.html",
+    "https://www.tripadvisor.com/Hotel_Review-g12908257-d34118376-Reviews-Wadi_Rum_Desert_Wonders_Camp-Wadi_Rum_Village_Wadi_Rum_Al_Aqabah_Governorate.html",
 };
