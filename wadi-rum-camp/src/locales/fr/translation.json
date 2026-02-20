@@ -1,0 +1,434 @@
+{
+  "home": "Accueil",
+  "tours": "Excursions",
+  "about": "À propos",
+  "gallery": "Galerie",
+  "booking": "Réservation",
+  "directions": "Comment y arriver",
+  "contact": "Contact",
+  "title": "Camp Merveilles du Désert de Wadi Rum",
+  "subtitle": "Expérience authentique dans le désert sous les étoiles",
+  "aboutText": "Vivez l'hospitalité bédouine au cœur de Wadi Rum. Tentes confortables, nourriture traditionnelle, excursions en jeep et nuits inoubliables.",
+  "aboutParagraphs": [
+    "Wadi Rum, aussi appelée la Vallée de la Lune, est une destination désertique spectaculaire du sud de la Jordanie, située à environ 70 km au nord d’Aqaba.",
+    "Wadi Rum est célèbre pour ses hautes montagnes et son sable rosé. En réalité, sa renommée est comparable à celle de Pétra, l’une des Sept Merveilles du monde. C’est une destination très appréciée des voyageurs passionnés par la nature et la beauté du désert.",
+    "En tant que désert protégé dans le sud de la Jordanie, Wadi Rum abrite d’imposants massifs de grès comme le Jebel Um Ishrin, des arches naturelles remarquables comme le pont rocheux de Burdah, ainsi que des inscriptions anciennes gravées dans les canyons et les grottes, notamment à Khazali. La source de Lawrence, associée à Lawrence d’Arabie, reste l’un des arrêts les plus emblématiques de la région.",
+    "Nous proposons un large choix d’hébergements dans le désert de Wadi Rum, alliant confort et authenticité de l’expérience bédouine.",
+    "Nos clients gardent un souvenir durable de leur séjour dans notre camp. Rejoignez des centaines de visiteurs satisfaits venus du monde entier."
+  ],
+  "trips": [
+    "Tour en jeep",
+    "Balade à dos de chameau",
+    "Tour de randonnée"
+  ],
+  "tripsDesc": [
+    "Explorez le désert en 4x4 guidé.",
+    "Balade à dos de chameau au lever ou coucher du soleil.",
+    "Conquérez le plus haut sommet de Jordanie avec des vues à couper le souffle."
+  ],
+  "getToUsTitle": "Nous Trouver",
+  "getToUsDesc": "Notre point de rencontre est juste à l'extérieur du village de Wadi Rum. Les directions détaillées seront envoyées après la réservation.",
+  "bookingTitle": "Faire une réservation",
+  "cash": "Paiement en espèces à l'arrivée",
+  "fullname": "Nom complet",
+  "email": "Email",
+  "dates": "Dates souhaitées",
+  "guests": "Nombre de personnes",
+  "room": "Type de tente",
+  "toursSelect": "Sélectionnez la visite",
+  "message": "Demandes spéciales",
+  "sendEmail": "Envoyer la réservation",
+  "whatsapp": "Réserver via WhatsApp",
+  "roomsTitle": "Nos Tentes",
+  "roomsDesc": "Hébergements bédouins confortables et authentiques",
+  "pricePerNight": "par nuit",
+  "footerCampName": "Camp Wadi Rum",
+  "footerTagline": "Expériences désertiques authentiques sous les étoiles",
+  "footerFollowUs": "Suivez-nous",
+  "footerCopyright": "Camp Merveilles du Désert de Wadi Rum. Tous droits réservés.",
+  "legalTitle": "Informations légales",
+  "legalDesc": "Veuillez consulter notre Politique de confidentialité, nos Conditions d’utilisation et notre Avis sur les cookies.",
+  "privacyTitle": "Politique de confidentialité",
+  "privacyUpdated": "Dernière mise à jour : février 2026",
+  "privacyIntro": "Nous respectons votre vie privée et traitons uniquement les données personnelles nécessaires à la gestion des réservations.",
+  "privacyCollectTitle": "Données collectées :",
+  "privacyCollectText": "Nom, e-mail, numéro de téléphone, dates de réservation, nombre de personnes, chambre/visite sélectionnée et message envoyés via le formulaire de réservation.",
+  "privacyUseTitle": "Utilisation des données :",
+  "privacyUseText": "Pour répondre aux demandes de réservation, confirmer la disponibilité et assurer l’assistance client. Nous pouvons partager les données nécessaires avec des prestataires utilisés pour la communication (comme EmailJS).",
+  "privacyContactTitle": "Contact :",
+  "privacyContactText": "Pour toute demande d’accès, de correction ou de suppression des données, contactez-nous à desertwonderscampwadirum@gmail.com.",
+  "termsTitle": "Conditions d’utilisation",
+  "termsUpdated": "Dernière mise à jour : février 2026",
+  "termsIntro": "En utilisant ce site et nos services de réservation, vous acceptez les présentes conditions.",
+  "termsBookingTitle": "Réservations :",
+  "termsBookingText": "Toutes les réservations sont soumises à disponibilité et à confirmation de notre équipe.",
+  "termsCancellationTitle": "Annulations :",
+  "termsCancellationText": "Les demandes d’annulation ou de modification doivent être envoyées dès que possible via nos canaux de contact officiels.",
+  "termsLiabilityTitle": "Responsabilité :",
+  "termsLiabilityText": "Les clients sont responsables de l’exactitude des informations fournies et du respect des consignes de sécurité du camp et des excursions.",
+  "cookiesTitle": "Avis sur les cookies",
+  "cookiesUpdated": "Dernière mise à jour : février 2026",
+  "cookiesIntro": "Ce site peut utiliser un stockage technique essentiel pour les préférences de langue et le bon fonctionnement du site.",
+  "cookiesEssentialTitle": "Utilisation essentielle :",
+  "cookiesEssentialText": "La sélection de la langue et le fonctionnement de base du site peuvent utiliser le stockage local du navigateur.",
+  "cookiesManageTitle": "Gestion des cookies :",
+  "cookiesManageText": "Vous pouvez gérer ou supprimer les cookies/le stockage local à tout moment dans les paramètres de votre navigateur.",
+  "parkingTitle": "Parking Gratuit et Lieu de Rencontre",
+  "parkingDesc": "Notre parking privé est situé à l'intérieur du village de Wadi Rum. Laissez votre véhicule ici gratuitement et profitez d'un transport gratuit vers notre camp. Notre personnel vous attendra pour vous accueillir et vous faire vivre un voyage désertique inoubliable.",
+  "parkingItem1": "Parking sécurisé gratuit pour tous les clients",
+  "parkingItem2": "Transport gratuit vers le camp",
+  "parkingItem3": "Service d'assistance et d'accueil",
+  "campLocationTitle": "Notre Camp Désertique",
+  "amenities": "Équipements",
+  "bookNow": "Réserver Maintenant",
+  "includes": "Inclus",
+  "highlights": "Points Forts",
+  "checkIn": "Arrivée",
+  "checkOut": "Départ",
+  "phoneNumber": "Numéro de téléphone",
+  "noTourOption": "Pas de visite - Camping uniquement",
+  "roomSingleName": "Tente Simple",
+  "roomSingleCapacity": "1 Personne",
+  "roomSingleDesc": "Tente individuelle confortable avec literie de qualité, parfaite pour les voyageurs solo. Profitez de l'intimité et du confort de nos hébergements bédouins traditionnels bien conçus.",
+  "roomDoubleName": "Tente Double",
+  "roomDoubleCapacity": "2 Personnes",
+  "roomDoubleDesc": "Tente spacieuse parfaite pour les couples ou les amis. Dispose d'équipements haut de gamme et d'amplement d'espace pour un séjour désertique confortable avec charme bédouin authentique.",
+  "roomFamilyName": "Tente Familiale",
+  "roomFamilyCapacity": "4 Personnes",
+  "roomFamilyDesc": "Grand hébergement familial avec zones séparées, parfait pour les familles ou les groupes. Combine le confort avec l'expérience désertique authentique et amplement d'espace.",
+  "tourDuration": "Durée",
+  "tourJeepDuration": "4-6 heures",
+  "tourJeepDesc": "Au départ du village de Wadi Rum à 10h, explorez la Source de Lawrence d’Arabie, le Canyon de Khazali avec ses anciennes inscriptions nabatéennes, et grimpez les dunes de sable dorées. Visitez la Maison de Lawrence, randonnez dans le Canyon de Mahama et profitez d’un déjeuner traditionnel à l’ombre. L’après‑midi, découvrez le Rocher Champignon, l’arche de Jebel Burdah et l’arche d’Um Fruth (ascension de 20 m pour une vue spectaculaire). Regardez le coucher du soleil sur les dunes de sable rouge avant d’atteindre le camp au crépuscule. Profitez d’un dîner traditionnel, de musique et de thé bédouin au coin du feu. Dormez dans une tente ou sous les étoiles en observant la Voie lactée. Après le petit‑déjeuner du jour 2, retour au village (trek à dos de chameau de 2 heures en option pour 25 JOD).",
+  "tourJeepIncludes": [
+    "Guide professionnel",
+    "Véhicule 4x4",
+    "Déjeuner",
+    "Eau et rafraîchissements",
+    "Arrêts photo"
+  ],
+  "tourJeepHighlights": [
+    "Formations rocheuses",
+    "Villages bédouins",
+    "Paysages désertiques",
+    "Vues au coucher du soleil"
+  ],
+  "tourJeepPricing": [
+    {
+      "guests": "1 personne",
+      "price": 100
+    },
+    {
+      "guests": "2 personnes",
+      "price": 80
+    },
+    {
+      "guests": "3 personnes",
+      "price": 70
+    },
+    {
+      "guests": "4+ personnes",
+      "price": 65
+    }
+  ],
+  "tourPrivateTourNote": "Tour privé: +20 JOD par personne",
+  "childrenPricingNote": "Tarif enfants: 0-2 ans gratuit • 3-11 ans reçoivent 30% de réduction",
+  "tourJeepHalfNightTitle": "Tour en Jeep Demi-Journée & 1 Nuit",
+  "tourJeepHalfNightDesc": "Commencez au village de Rum et visitez le temple nabatéen, la Source de Lawrence et les Dunes de Sable dorées. Continuez vers le Petit Pont, puis la Maison de Lawrence avec ses rochers en équilibre, et le Canyon de Khazali pour voir les inscriptions nabatéennes anciennes. Arrêtez-vous pour le coucher de soleil doré, retournez au camp pour un dîner traditionnel, de la musique et du thé, et dormez dans une tente ou sous les étoiles. Après le petit-déjeuner, retour au village (trek à dos de chameau optionnel de 2 heures pour 25 JOD par chameau).",
+  "tourJeepHalfNightIncludes": [
+    "Guide bédouin (anglophone)",
+    "Petit-déjeuner & dîner",
+    "Service jeep 4x4",
+    "Eau & thé bédouin",
+    "Camping de nuit"
+  ],
+  "tourJeepHalfNightPricing": [
+    {
+      "guests": "1 personne",
+      "price": 90
+    },
+    {
+      "guests": "2-3 personnes",
+      "price": 70
+    },
+    {
+      "guests": "4+ personnes",
+      "price": 60
+    }
+  ],
+  "tourJeepHalfNightHighlights": [
+    "Temple nabatéen",
+    "Source de Lawrence",
+    "Petit Pont",
+    "Dunes de sable dorées",
+    "Inscriptions du Canyon de Khazali",
+    "Point de vue du coucher de soleil",
+    "Dîner au camp & thé",
+    "Observation des étoiles & nuit"
+  ],
+  "tourJeepHalfNightPrivateNote": "Tour privé: +20 JOD par personne",
+  "tourJeepHalfNightChildrenNote": "Tarif enfants: 0-2 ans gratuit • 3-11 ans reçoivent 30% de réduction",
+  "tourJeepShortTitle": "Tour en Jeep 3 Heures & 1 Nuit",
+  "tourJeepShortDesc": "Démarrez du village de Rum et découvrez les attractions naturelles et uniques du désert. Visitez le temple nabatéen, puis la Source de Lawrence pour voir la réserve d'eau douce entourée de montagnes. Continuez vers le Petit Pont pour une courte randonnée et profitez de la vue, suivi des Dunes de Sable dorées où vous pouvez grimper jusqu'au sommet. Explorez le Canyon de Khazali, célèbre pour ses belles inscriptions nabatéennes anciennes. Arrêtez-vous pour le coucher de soleil doré avant de retourner au camp pour un dîner traditionnel, de la musique et des danses au coin du feu. Dormez dans une tente ou sous des millions d'étoiles. Après le petit-déjeuner le lendemain, retour au village (trek à dos de chameau optionnel de 2 heures pour 20 JOD par chameau).",
+  "tourJeepShortIncludes": [
+    "Guide bédouin (anglophone)",
+    "Petit-déjeuner & dîner",
+    "Service jeep 4x4",
+    "Eau & thé bédouin",
+    "Camping de nuit"
+  ],
+  "tourJeepShortPricing": [
+    {
+      "guests": "1 personne",
+      "price": 85
+    },
+    {
+      "guests": "2-3 personnes",
+      "price": 65
+    },
+    {
+      "guests": "4+ personnes",
+      "price": 55
+    }
+  ],
+  "tourJeepShortHighlights": [
+    "Temple nabatéen",
+    "Source de Lawrence",
+    "Randonnée au Petit Pont",
+    "Dunes de sable dorées",
+    "Inscriptions du Canyon de Khazali",
+    "Point de vue du coucher de soleil",
+    "Dîner traditionnel & feu de camp",
+    "Observation des étoiles & nuit"
+  ],
+  "tourJeepShortPrivateNote": "Tour privé: +20 JOD par personne",
+  "tourJeepShortChildrenNote": "Tarif enfants: 0-2 ans gratuit • 3-11 ans reçoivent 30% de réduction",
+  "tourJeep2HourTitle": "Tour en Jeep 2 Heures",
+  "tourJeep2HourDesc": "Partez du village de Rum et découvrez les attractions naturelles et uniques du désert lors d'un tour compact. Visitez le temple nabatéen, puis la Source de Lawrence pour voir la réserve d'eau douce entourée de montagnes. Continuez vers les Dunes de Sable dorées où vous pouvez grimper sur le sable chaud et profiter de la vue sur le désert d'en haut. Explorez le Canyon de Khazali, célèbre pour ses belles inscriptions nabatéennes anciennes. Après le Canyon, profitez d'un trajet panoramique de retour au village de Rum.",
+  "tourJeep2HourIncludes": [
+    "Guide bédouin (anglophone)",
+    "Service jeep 4x4",
+    "Eau & thé bédouin"
+  ],
+  "tourJeep2HourPricing": [
+    {
+      "guests": "1 personne",
+      "price": 50
+    },
+    {
+      "guests": "2-3 personnes",
+      "price": 40
+    },
+    {
+      "guests": "4+ personnes",
+      "price": 35
+    }
+  ],
+  "tourJeep2HourHighlights": [
+    "Temple nabatéen",
+    "Source de Lawrence",
+    "Dunes de sable dorées",
+    "Conduite panoramique dans le désert"
+  ],
+  "tourJeep2HourPrivateNote": "Tour privé: +10 JOD par personne",
+  "tourJeep2HourChildrenNote": "Tarif enfants: 0-2 ans gratuit • 3-11 ans reçoivent 30% de réduction",
+  "tourJeepExcluded": [
+    "Frais d'entrée Wadi Rum (5 JOD)",
+    "Dépenses personnelles",
+    "Pourboires"
+  ],
+  "excludes": "Exclus",
+  "pricing": "Tarifs",
+  "pricePerPersonFor": "par personne pour",
+  "tourCamelDuration": "2-3 heures",
+  "tourCamelDesc": "Découvrez la magie de Wadi Rum à dos de chameau au coucher du soleil, au lever du soleil ou sous les étoiles. Le coucher et le lever du soleil dans le désert sont les plus belles scènes que vous verrez jamais en chevauchant un chameau magnifique à travers les dunes dorées. Ressentez le doux balancement du chameau alors que vous traversez le paysage désertique intemporel, créant des souvenirs inoubliables dans l'un des environnements naturels les plus spectaculaires au monde. Parfait pour tous les âges et capacités.",
+  "tourCamelPricing": [
+    {
+      "guests": "Balade lever/coucher du soleil",
+      "price": 20
+    },
+    {
+      "guests": "Balade nocturne",
+      "price": 15
+    },
+    {
+      "guests": "Demi-journée avec nuit (1 personne)",
+      "price": 75
+    },
+    {
+      "guests": "Demi-journée avec nuit (2-4 personnes)",
+      "price": 50
+    }
+  ],
+  "tourCamelChildrenNote": "Tarif enfants: 0-2 ans gratuit • 3-11 ans reçoivent 30% de réduction",
+  "tourCamelIncludes": [
+    "Location de chameau",
+    "Guide bédouin (anglophone)",
+    "Eau & thé bédouin"
+  ],
+  "tourCamelExcluded": [
+    "Frais d'entrée Wadi Rum (5 JOD)",
+    "Dépenses personnelles",
+    "Pourboires"
+  ],
+  "tourCamelHighlights": [
+    "Balade au coucher du soleil",
+    "Expérience au lever du soleil",
+    "Voyage nocturne dans le désert",
+    "Dunes dorées",
+    "Vues panoramiques",
+    "Opportunité photographique",
+    "Interaction avec le chameau"
+  ],
+  "tourHikingTitle": "Randonnée Jabal Umm Addamy & Une Nuit",
+  "tourHikingDuration": "2 jours / 1 nuit (début 10h00)",
+  "tourHikingDesc": "Jabal Umm Addamy est la plus haute montagne de Jordanie à 1832m d'altitude, située à la frontière avec l'Arabie Saoudite. Du sommet, admirez des vues à couper le souffle sur l'Arabie Saoudite d'un côté et le vaste désert de Wadi Rum de l'autre. Cette aventure commence au village de Rum (altitude 1000m) avec un magnifique trajet de 40 km vers le sud à travers les vallées reculées de Wadi Rum, traversant le magnifique et solitaire Wadi Saabit. Profitez d'une randonnée guidée de 2,5 heures jusqu'au sommet, suivie d'un déjeuner traditionnel et d'une période de repos. Après le déjeuner, visitez le Pont Rocheux dans la Zone Blanche et la Source d'Elqettar avant de retourner au camp pour assister au coucher de soleil doré sur les dunes. Profitez d'un dîner traditionnel au coin du feu avec de la musique sous les étoiles, puis dormez dans une tente ou sous le ciel ouvert. Le lendemain matin après le petit-déjeuner, retour au village de Rum en jeep, ou optez pour un trek en chameau de 2 heures (25 JOD supplémentaires par chameau).",
+  "tourHikingPricing": [
+    {
+      "guests": "1 Personne",
+      "price": 125
+    },
+    {
+      "guests": "2-4 Personnes",
+      "price": 75
+    },
+    {
+      "guests": "5-8 Personnes",
+      "price": 50
+    },
+    {
+      "guests": "9+ Personnes",
+      "price": 40
+    }
+  ],
+  "tourHikingIncludes": [
+    "Chauffeur de jeep anglophone & guide d'escalade",
+    "Visite d'une vraie famille bédouine",
+    "Dîner, petit-déjeuner, déjeuner, eau & thé",
+    "Nuit au camp bédouin",
+    "Retour au village de Wadi Rum"
+  ],
+  "tourHikingExcluded": [
+    "Frais d'entrée Wadi Rum (5 JOD)",
+    "Dépenses personnelles",
+    "Pourboires",
+    "Trek à dos de chameau optionnel (25 JOD par chameau)"
+  ],
+  "tourHikingHighlights": [
+    "Sommet de la plus haute montagne de Jordanie (1832m)",
+    "Vues panoramiques sur l'Arabie Saoudite et Wadi Rum",
+    "40 km de trajet panoramique dans le désert",
+    "Randonnée guidée de 2,5 heures",
+    "Pont rocheux dans la zone blanche",
+    "Visite de la source Elqettar",
+    "Coucher de soleil doré",
+    "Dîner bédouin traditionnel & musique",
+    "Dormir sous les étoiles",
+    "Visite d'une famille bédouine authentique"
+  ],
+  "tourHikingBurdahTitle": "Randonnée Arche de Burdah & Une Nuit",
+  "tourHikingBurdahDesc": "Le tour commence au village de Rum. Nous vous conduisons à la base de la montagne Burdah, où une randonnée guidée d'environ 3 heures vous mène à la plus grande arche du désert de Wadi Rum. Nous fournissons tout l'équipement nécessaire et notre guide de randonnée sera avec vous à chaque étape. Une petite partie implique de l'escalade de brouillage juste avant et après l'arche. Les vues sont à couper le souffle et la randonnée est très excitante. À la descente, nous nous arrêtons pour le déjeuner dans un endroit ombragé. Ensuite, nous continuons en jeep vers le Pont Rocheux d'Um Frouth et le Petit Pont, tous deux que vous pouvez escalader pour la vue. Sur le chemin du retour au camp, nous nous arrêtons au Canyon de Khazaly pour voir les inscriptions anciennes. De retour au camp, profitez d'un dîner traditionnel, de la musique au coin du feu et de l'observation des étoiles avant de dormir dans une tente ou sous les étoiles.",
+  "tourHikingBurdahPricing": [
+    {
+      "guests": "1 Personne",
+      "price": 110
+    },
+    {
+      "guests": "2-3 Personnes",
+      "price": 80
+    },
+    {
+      "guests": "4-8 Personnes",
+      "price": 60
+    },
+    {
+      "guests": "9+ Personnes",
+      "price": 45
+    }
+  ],
+  "tourHikingBurdahIncludes": [
+    "Guide bédouin (anglophone)",
+    "Tous les repas",
+    "Service jeep",
+    "Équipement de couchage",
+    "Eau & thé bédouin"
+  ],
+  "tourHikingBurdahExcluded": [
+    "Frais d'entrée Wadi Rum (5 JOD)",
+    "Dépenses personnelles",
+    "Pourboires"
+  ],
+  "tourHikingBurdahHighlights": [
+    "Randonnée montagne Burdah",
+    "Plus grande arche de Wadi Rum",
+    "Randonnée guidée d'env. 3 heures",
+    "Sections d'escalade",
+    "Pont Rocheux Um Frouth",
+    "Petit Pont",
+    "Inscriptions du Canyon de Khazaly",
+    "Dîner traditionnel & feu de camp",
+    "Observation des étoiles & nuit"
+  ],
+  "perPerson": "par personne",
+  "amenitySingleTent": "Tente privée",
+  "amenityComfortableBed": "Lit confortable avec draps de qualité",
+  "amenityPrivateBathroom": "Salle de bain privée",
+  "amenityFreeToiletries": "Articles de toilette gratuits",
+  "amenityShower": "Douche",
+  "amenityBidet": "Bidet",
+  "amenityToilet": "Toilettes",
+  "amenityTowels": "Serviettes",
+  "amenityToiletPaper": "Papier toilette",
+  "amenityLandmarkView": "Vue sur les monuments",
+  "amenityLinen": "Linge de lit",
+  "amenitySeatingArea": "Coin salon",
+  "amenityRefrigerator": "Réfrigérateur",
+  "amenityTeaCoffeeMaker": "Théière/Cafetière",
+  "amenityElectricKettle": "Bouilloire électrique",
+  "amenityOutdoorFurniture": "Mobilier d'extérieur",
+  "amenityOutdoorDiningArea": "Espace repas extérieur",
+  "amenityWardrobeCloset": "Armoire ou placard",
+  "amenityBarbecue": "Barbecue",
+  "amenityDiningArea": "Espace repas",
+  "amenityDiningTable": "Table à manger",
+  "amenityAirConditioning": "Climatisation",
+  "amenityHeatingSystem": "Système de chauffage",
+  "amenityBedsideLamp": "Lampe de chevet",
+  "amenityPersonalStorage": "Rangement personnel",
+  "amenitySharedBathroom": "Accès à la salle de bain commune",
+  "amenityWiFi": "Wi-Fi disponible",
+  "amenitySpacioousTent": "Tente privée spacieuse",
+  "amenityQueenBed": "Lit queen-size",
+  "amenityPremiumLinens": "Draps et oreillers premium",
+  "amenityReadingLamps": "Lampes de lecture",
+  "amenityDressingArea": "Espace vestimentaire",
+  "amenityEnsuiteSh": "Douche attenante",
+  "amenityMultiRoomTent": "Configuration de tente multi-pièces",
+  "amenityMultipleBeds": "Lits multiples (2 queen + 2 simples)",
+  "amenityPremiumLinensBasic": "Draps premium",
+  "amenityACAllAreas": "Climatisation dans toutes les zones",
+  "amenityFamilyBathroom": "Salle de bain familiale",
+  "amenitySittingArea": "Espace de détente",
+  "amenityPrivateEntrance": "Entrée privée",
+  "amenityWiFiAccess": "Accès Wi-Fi",
+  "amenityStorageAreas": "Zones de rangement",
+  "pleaseFillIn": "Veuillez remplir",
+  "errorName": "Nom",
+  "errorEmail": "Email",
+  "errorValidEmail": "Email valide",
+  "errorPhone": "Numéro de téléphone",
+  "errorValidPhone": "Numéro de téléphone valide",
+  "errorCheckInDate": "Date d'arrivée",
+  "errorCheckOutDate": "Date de départ",
+  "errorGuests": "Nombre de personnes",
+  "errorRoom": "Type de chambre",
+  "errorTour": "Sélection de visite",
+  "bookingJeepFullDay": "Tour en Jeep - Journée Complète & 1 Nuit",
+  "bookingJeepHalfDay": "Tour en Jeep - Demi-Journée & 1 Nuit",
+  "bookingJeep3Hour": "Tour en Jeep - 3 Heures & 1 Nuit",
+  "bookingJeep2Hour": "Tour en Jeep - 2 Heures",
+  "bookingCamelSunrise": "Balade à Chameau - Lever/Coucher du Soleil",
+  "bookingCamelNight": "Balade à Chameau - Nocturne",
+  "bookingCamelOvernight": "Balade à Chameau - Demi-Journée avec Nuit",
+  "bookingHikingUmm": "Randonnée - Jabal Umm Addamy & 1 Nuit",
+  "bookingHikingBurdah": "Randonnée - Arche de Burdah & 1 Nuit"
+}

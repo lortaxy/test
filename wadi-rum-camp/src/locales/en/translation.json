@@ -1,0 +1,447 @@
+{
+  "home": "Home",
+  "tours": "Tours",
+  "about": "About Us",
+  "gallery": "Gallery",
+  "booking": "Booking",
+  "directions": "How to Get Here",
+  "contact": "Contact",
+  "title": "Wadi Rum Desert Wonders Camp",
+  "subtitle": "Authentic Desert Experience Under the Stars",
+  "licensedText": "Licensed by Wadi Rum Protected Area Authority",
+  "aboutText": "Experience true Bedouin hospitality in the heart of Wadi Rum. Comfortable tents, traditional food, jeep tours, and unforgettable desert nights.",
+  "aboutParagraphs": [
+    "Wadi Rum, also called the Valley of the Moon, is a spectacular desert destination in southern Jordan, located about 70 km north of Aqaba.",
+    "Wadi Rum is famous for its high mountains and pink sand. In fact, it is as famous as Petra, one of the Seven Wonders of the World. It is a popular destination for travelers who are inspired by nature and want to explore its unique desert beauty.",
+    "As a protected desert wilderness in southern Jordan, Wadi Rum is home to towering sandstone massifs such as Jebel Um Ishrin, striking natural arches like Burdah Rock Bridge, and ancient inscriptions carved into canyons and caves, including Khazali Canyon. Lawrence’s Spring, a natural water source linked to Lawrence of Arabia, remains one of the area’s most iconic stops.",
+    "We offer a wide range of accommodation options in the Wadi Rum desert, designed to provide comfort while preserving the authentic Bedouin experience.",
+    "Our guests remember their stay at our camp for a long time. Join hundreds of satisfied visitors from around the world."
+  ],
+  "trips": [
+    "Jeep Tour",
+    "Camel Ride",
+    "Hiking Tour"
+  ],
+  "tripsDesc": [
+    "Explore the spectacular desert terrain in a guided 4x4 tour.",
+    "Ride a camel at sunrise or sunset for magical views.",
+    "Conquer Jordan's highest peak with breathtaking views."
+  ],
+  "getToUsTitle": "Reach Us",
+  "getToUsDesc": "Our meeting point is just outside Wadi Rum Village. Detailed directions will be sent after booking, or you can find us via Google Maps below.",
+  "bookingTitle": "Make a Booking",
+  "cash": "Cash payment on arrival",
+  "fullname": "Full Name",
+  "email": "Email",
+  "dates": "Preferred Dates",
+  "guests": "Number of Guests",
+  "room": "Tent/Room Type",
+  "toursSelect": "Select Tour",
+  "message": "Special Requests",
+  "sendEmail": "Send Booking Request",
+  "whatsapp": "Book via WhatsApp",
+  "roomsTitle": "Our Rooms",
+  "roomsDesc": "Comfortable and authentic Bedouin accommodations",
+  "pricePerNight": "per night",
+  "footerCampName": "Wadi Rum Camp",
+  "footerTagline": "Authentic desert experiences under the stars",
+  "footerLicensed": "Licensed by Wadi Rum Protected Area Authority",
+  "footerFollowUs": "Follow Us",
+  "footerCopyright": "Wadi Rum Desert Wonders Camp. All rights reserved.",
+  "legalTitle": "Legal Information",
+  "legalDesc": "Please review our Privacy Policy, Terms of Use, and Cookie Notice.",
+  "privacyTitle": "Privacy Policy",
+  "privacyUpdated": "Last updated: February 2026",
+  "privacyIntro": "We respect your privacy and only process personal data needed to provide booking services.",
+  "privacyCollectTitle": "What we collect:",
+  "privacyCollectText": "Name, email, phone number, booking dates, guest count, selected room/tour, and message details submitted through the booking form.",
+  "privacyUseTitle": "How we use data:",
+  "privacyUseText": "To respond to booking requests, confirm availability, and provide customer support. We may share required data with service providers used for booking communication (such as EmailJS).",
+  "privacyContactTitle": "Contact:",
+  "privacyContactText": "For data access, correction, or deletion requests, contact us at desertwonderscampwadirum@gmail.com.",
+  "termsTitle": "Terms of Use",
+  "termsUpdated": "Last updated: February 2026",
+  "termsIntro": "By using this website and booking services, you agree to these terms.",
+  "termsBookingTitle": "Bookings:",
+  "termsBookingText": "All bookings are subject to availability and confirmation by our team.",
+  "termsCancellationTitle": "Cancellations:",
+  "termsCancellationText": "Cancellation and change requests should be sent as early as possible through our official contact channels.",
+  "termsLiabilityTitle": "Liability:",
+  "termsLiabilityText": "Guests are responsible for providing accurate booking details and following camp and tour safety instructions.",
+  "cookiesTitle": "Cookie Notice",
+  "cookiesUpdated": "Last updated: February 2026",
+  "cookiesIntro": "This site may use essential technical storage to support language preferences and website functionality.",
+  "cookiesEssentialTitle": "Essential usage:",
+  "cookiesEssentialText": "Language selection and basic website behavior may rely on local browser storage.",
+  "cookiesManageTitle": "Managing cookies:",
+  "cookiesManageText": "You can control or delete cookies/local storage through your browser settings at any time.",
+  "parkingTitle": "Free Parking & Meeting Point",
+  "parkingDesc": "Our private parking location is conveniently situated inside Wadi Rum Village. Leave your vehicle here for free and enjoy complimentary transportation to our camp. Our staff will be waiting to welcome you and take you on an unforgettable desert journey.",
+  "parkingItem1": "Free secure parking for all guests",
+  "parkingItem2": "Complimentary transportation to camp",
+  "parkingItem3": "Staff assistance and welcome service",
+  "campLocationTitle": "Our Desert Camp",
+  "amenities": "Amenities",
+  "bookNow": "Book Now",
+  "includes": "Includes",
+  "highlights": "Highlights",
+  "checkIn": "Check-In",
+  "checkOut": "Check-Out",
+  "phoneNumber": "Phone Number",
+  "noTourOption": "No Tour - Camp Only",
+  "roomSingleName": "Single Tent",
+  "roomSingleCapacity": "1 Person",
+  "roomSingleDesc": "Cozy individual tent with comfortable bedding, perfect for solo travelers. Enjoy privacy and comfort in our well-designed modern Bedouin-style accommodation with private bathroom.",
+  "roomDoubleName": "Double Tent",
+  "roomDoubleCapacity": "2 People",
+  "roomDoubleDesc": "Spacious tent perfect for couples or friends. Features premium amenities and ample space for a comfortable desert stay with authentic Bedouin charm.",
+  "roomFamilyName": "Family Tent",
+  "roomFamilyCapacity": "4 People",
+  "roomFamilyDesc": "Large family accommodation with private bathroom, perfect for families or groups. Combines comfort with authentic desert experience and plenty of space.",
+  "tourDuration": "Duration",
+  "tourJeepDuration": "Full Day Adventure & 1 Night (Starts 10AM)",
+  "tourJeepDesc": "Starting from Wadi Rum village at 10AM, explore Lawrence of Arabia's Spring, Khazali Canyon with ancient Nabatean inscriptions, and climb golden sand dunes. Visit Lawrence's House, trek through Mahama Canyon, and enjoy a traditional lunch under the shade. In the afternoon, discover Mushroom Rock, Jebel Burdah Arch, and Um Fruth Arch (climb 20m high for stunning views). Watch the sunset over Red Sand dunes before reaching camp at dusk. Enjoy traditional dinner, music, and bedouin tea by the fire. Sleep in a tent or under the stars watching the Milky Way. After breakfast on day 2, return to the village (optional 2-hour camel trek available for 25 JOD).",
+  "tourJeepIncludes": [
+    "Bedouin guide (English speaker)",
+    "All meals (lunch, dinner, breakfast)",
+    "4x4 jeep service",
+    "Sandboarding",
+    "Water & Bedouin tea",
+    "Overnight camping"
+  ],
+  "tourJeepHighlights": [
+    "Nabatean Temple",
+    "Lawrence's Spring",
+    "Khazali Canyon inscriptions",
+    "Golden & red sand dunes",
+    "Little Bridge",
+    "Lawrence's House & balancing rocks",
+    "Um Fruth Arch",
+    "Jebel Burdah Arch view",
+    "Mahama Canyon trek",
+    "Sunset viewpoint",
+    "Stargazing & overnight camping",
+    "Traditional Bedouin experience"
+  ],
+  "tourJeepExcluded": [
+    "Wadi Rum entrance fee (5 JOD)",
+    "Personal expenses",
+    "Tips"
+  ],
+  "tourJeepPricing": [
+    {
+      "guests": "1 person",
+      "price": 100
+    },
+    {
+      "guests": "2 people",
+      "price": 80
+    },
+    {
+      "guests": "3 people",
+      "price": 70
+    },
+    {
+      "guests": "4+ people",
+      "price": 65
+    }
+  ],
+  "tourPrivateTourNote": "Private tour: +20 JOD per person",
+  "childrenPricingNote": "Children pricing: Ages 0-2 free • Ages 3-11 receive 30% discount",
+  "tourJeepHalfNightTitle": "Half-Day Jeep Tour & 1 Night",
+  "tourJeepHalfNightDesc": "Begin in Rum village and visit the Nabatean temple, Lawrence’s Spring, and the golden Sand Dunes. Continue to the Little Bridge, then Lawrence’s House with its balancing rocks, and Khazali Canyon to see ancient Nabatean inscriptions. Stop for the golden sunset, return to camp for traditional dinner, music, and tea, and sleep in a tent or under the stars. After breakfast, return to the village (optional 2-hour camel trek back for 25 JOD per camel).",
+  "tourJeepHalfNightIncludes": [
+    "Bedouin guide (English speaker)",
+    "Breakfast & dinner",
+    "4x4 jeep service",
+    "Water & Bedouin tea",
+    "Overnight camping"
+  ],
+  "tourJeepHalfNightPricing": [
+    {
+      "guests": "1 person",
+      "price": 90
+    },
+    {
+      "guests": "2-3 people",
+      "price": 70
+    },
+    {
+      "guests": "4+ people",
+      "price": 60
+    }
+  ],
+  "tourJeepHalfNightHighlights": [
+    "Nabatean Temple",
+    "Lawrence’s Spring",
+    "Golden sand dunes",
+    "Little Bridge",
+    "Lawrence’s House & balancing rocks",
+    "Khazali Canyon inscriptions",
+    "Sunset viewpoint",
+    "Camp dinner & tea",
+    "Stargazing & overnight"
+  ],
+  "tourJeepHalfNightPrivateNote": "Private tour: +20 JOD per person",
+  "tourJeepHalfNightChildrenNote": "Children pricing: Ages 0-2 free • Ages 3-11 receive 30% discount",
+  "tourJeepShortTitle": "3 Hour Jeep Tour & 1 Night",
+  "tourJeepShortDesc": "Start from Rum village and discover the desert's natural and unique attractions. Visit the Nabatean temple, then Lawrence's Spring to see the fresh water reserve surrounded by mountains. Continue to the Little Bridge for a short hike to enjoy the view, followed by the golden Sand Dunes where you can climb to the top. Explore Khazali Canyon, famous for beautiful ancient Nabatean inscriptions. Stop for the golden sunset before returning to camp for traditional dinner, music, and dancing by the fire. Sleep in a tent or under millions of stars. After breakfast the next day, return to the village (optional 2-hour camel trek for 20 JOD per camel).",
+  "tourJeepShortIncludes": [
+    "Bedouin guide (English speaker)",
+    "Breakfast & dinner",
+    "4x4 jeep service",
+    "Water & Bedouin tea",
+    "Overnight camping"
+  ],
+  "tourJeepShortPricing": [
+    {
+      "guests": "1 person",
+      "price": 85
+    },
+    {
+      "guests": "2-3 people",
+      "price": 65
+    },
+    {
+      "guests": "4+ people",
+      "price": 55
+    }
+  ],
+  "tourJeepShortHighlights": [
+    "Nabatean Temple",
+    "Lawrence's Spring",
+    "Little Bridge hike",
+    "Golden sand dunes",
+    "Khazali Canyon inscriptions",
+    "Sunset viewpoint",
+    "Traditional dinner & campfire",
+    "Stargazing & overnight"
+  ],
+  "tourJeepShortPrivateNote": "Private tour: +20 JOD per person",
+  "tourJeepShortChildrenNote": "Children pricing: Ages 0-2 free • Ages 3-11 receive 30% discount",
+  "tourJeep2HourTitle": "2 Hour Jeep Tour",
+  "tourJeep2HourDesc": "Start from Rum village and discover the desert's natural and unique attractions in a compact tour. Visit the Nabatean temple, then Lawrence's Spring to see the fresh water reserve surrounded by mountains. Continue to the golden Sand Dunes where you can hike up on the warm sand and enjoy the view from above the desert. Explore Khazali Canyon, famous for beautiful ancient Nabatean inscriptions. After the Canyon, enjoy a scenic drive back to Rum Village.",
+  "tourJeep2HourIncludes": [
+    "Bedouin guide (English speaker)",
+    "4x4 jeep service",
+    "Water & Bedouin tea"
+  ],
+  "tourJeep2HourPricing": [
+    {
+      "guests": "1 person",
+      "price": 50
+    },
+    {
+      "guests": "2-3 people",
+      "price": 40
+    },
+    {
+      "guests": "4+ people",
+      "price": 35
+    }
+  ],
+  "tourJeep2HourHighlights": [
+    "Nabatean Temple",
+    "Lawrence's Spring",
+    "Golden sand dunes hike",
+    "Khazali Canyon inscriptions",
+    "Scenic desert drive"
+  ],
+  "tourJeep2HourPrivateNote": "Private tour: +20 JOD per person",
+  "tourJeep2HourChildrenNote": "Children pricing: Ages 0-2 free • Ages 3-11 receive 30% discount",
+  "excludes": "Excluded",
+  "pricing": "Pricing",
+  "pricePerPersonFor": "per person for",
+  "tourCamelDuration": "2-3 hours",
+  "tourCamelDesc": "Experience the magic of Wadi Rum on camel back at sunset, sunrise, or under the stars. The Sunset and Sunrise in the desert are the most beautiful scenes you will ever lay your eyes on while riding a magnificent camel through golden dunes. Feel the gentle sway of the camel as you traverse the timeless desert landscape, creating unforgettable memories in one of the world's most spectacular natural environments. Perfect for all ages and abilities.",
+  "tourCamelPricing": [
+    {
+      "guests": "Sunrise/Sunset Ride",
+      "price": 20
+    },
+    {
+      "guests": "Night Ride",
+      "price": 15
+    },
+    {
+      "guests": "Half-Day Overnight (1 person)",
+      "price": 75
+    },
+    {
+      "guests": "Half-Day Overnight (2-4 people)",
+      "price": 50
+    }
+  ],
+  "tourCamelChildrenNote": "Children pricing: Ages 0-2 free • Ages 3-11 receive 30% discount",
+  "tourCamelIncludes": [
+    "Camel rental",
+    "Bedouin guide (English speaker)",
+    "Water & Bedouin tea"
+  ],
+  "tourCamelExcluded": [
+    "Wadi Rum entrance fee (5 JOD)",
+    "Personal expenses",
+    "Tips"
+  ],
+  "tourCamelHighlights": [
+    "Sunset riding",
+    "Sunrise experience",
+    "Night desert journey",
+    "Golden dunes",
+    "Panoramic views",
+    "Photography opportunity",
+    "Camel interaction"
+  ],
+  "tourHikingTitle": "Jabal Umm Addamy Hiking & One Night",
+  "tourHikingDuration": "2 days / 1 night (starts 10:00 AM)",
+  "tourHikingDesc": "Jabal Umm Addamy is the highest mountain in Jordan at 1832m above sea level, located at the border with Saudi Arabia. From the summit, witness breathtaking views of Saudi Arabia on one side and the vast Wadi Rum desert on the other. This adventure begins in Rum village (1000m elevation) with a magnificent 40km drive south through the far valleys of Wadi Rum, crossing the beautiful and lonely Wadi Saabit. Experience a guided 2.5-hour hike to the summit, followed by a traditional lunch and rest period. After lunch, visit the Rock Bridge in the White Area and Elqettar Spring before returning to camp to witness the golden sunset over the dunes. Enjoy a traditional dinner by the fire with music under the stars, then sleep in a tent or under the open sky. Next morning after breakfast, return to Rum village by jeep, or upgrade to a 2-hour camel trek (additional 25 JOD per camel).",
+  "tourHikingPricing": [
+    {
+      "guests": "1 Person",
+      "price": 125
+    },
+    {
+      "guests": "2-4 Persons",
+      "price": 75
+    },
+    {
+      "guests": "5-8 Persons",
+      "price": 50
+    },
+    {
+      "guests": "9+ Persons",
+      "price": 40
+    }
+  ],
+  "tourHikingIncludes": [
+    "English-speaking jeep driver & scrambling guide",
+    "Visit to real Bedouin family",
+    "Dinner, breakfast, lunch, water & tea",
+    "Overnight in Bedouin camp",
+    "Drive back to Wadi Rum village"
+  ],
+  "tourHikingExcluded": [
+    "Wadi Rum entrance fee (5 JOD)",
+    "Personal expenses",
+    "Tips",
+    "Optional camel trek (25 JOD per camel)"
+  ],
+  "tourHikingHighlights": [
+    "Summit of Jordan's highest mountain (1832m)",
+    "Panoramic views of Saudi Arabia & Wadi Rum",
+    "40km scenic desert drive through Wadi Saabit",
+    "Guided 2.5-hour mountain hike",
+    "Rock Bridge in White Area",
+    "Elqettar Spring visit",
+    "Golden sunset over dunes",
+    "Traditional Bedouin dinner & music",
+    "Sleep under the stars",
+    "Visit authentic Bedouin family"
+  ],
+  "tourHikingBurdahTitle": "Burdah Arch Hiking & One Night",
+  "tourHikingBurdahDesc": "The tour starts from Rum Village. We drive you to the base of Burdah Mountain, where a guided hike of about 3 hours takes you to the biggest arch in the Wadi Rum desert. We provide all necessary equipment, and our hiking guide will be with you every step of the way. A small portion involves scramble climbing just before and after the arch. The views are breathtaking and the hike is very exciting. On the descent, we stop for lunch in a shaded spot. Then we continue by jeep to Um Frouth Rock Bridge and the Little Bridge, both of which you can climb for the view. On the way back to camp, we stop at Khazaly Canyon to see ancient inscriptions. Back at camp, enjoy a traditional dinner, music by the fire, and stargazing before sleeping in a tent or under the stars.",
+  "tourHikingBurdahPricing": [
+    {
+      "guests": "1 Person",
+      "price": 110
+    },
+    {
+      "guests": "2-3 People",
+      "price": 80
+    },
+    {
+      "guests": "4-8 People",
+      "price": 60
+    },
+    {
+      "guests": "9+ People",
+      "price": 45
+    }
+  ],
+  "tourHikingBurdahIncludes": [
+    "Bedouin guide (English speaker)",
+    "All meals",
+    "Jeep service",
+    "Sleeping equipment",
+    "Water & Bedouin tea"
+  ],
+  "tourHikingBurdahExcluded": [
+    "Wadi Rum entrance fee (5 JOD)",
+    "Personal expenses",
+    "Tips"
+  ],
+  "tourHikingBurdahHighlights": [
+    "Burdah Mountain hike",
+    "Largest arch in Wadi Rum",
+    "Approx. 3-hour guided hike",
+    "Scramble climbing sections",
+    "Um Frouth Rock Bridge",
+    "Little Bridge",
+    "Khazaly Canyon inscriptions",
+    "Traditional dinner & campfire",
+    "Stargazing & overnight"
+  ],
+  "perPerson": "per person",
+  "amenitySingleTent": "Private tent",
+  "amenityComfortableBed": "Comfortable bed with quality linens",
+  "amenityAirConditioning": "Air conditioning",
+  "amenityHeatingSystem": "Heating system",
+  "amenityBedsideLamp": "Bedside lamp",
+  "amenityPersonalStorage": "Personal storage",
+  "amenitySharedBathroom": "Access to shared bathroom",
+  "amenityWiFi": "Wi-Fi available",
+  "amenityFreeToiletries": "Free toiletries",
+  "amenityShower": "Shower",
+  "amenityBidet": "Bidet",
+  "amenityToilet": "Toilet",
+  "amenityTowels": "Towels",
+  "amenityToiletPaper": "Toilet paper",
+  "amenityLandmarkView": "Landmark view",
+  "amenityLinen": "Linen",
+  "amenitySeatingArea": "Seating Area",
+  "amenityRefrigerator": "Refrigerator",
+  "amenityTeaCoffeeMaker": "Tea/Coffee maker",
+  "amenityElectricKettle": "Electric kettle",
+  "amenityOutdoorFurniture": "Outdoor furniture",
+  "amenityOutdoorDiningArea": "Outdoor dining area",
+  "amenityWardrobeCloset": "Wardrobe or closet",
+  "amenityBarbecue": "Barbecue",
+  "amenityDiningArea": "Dining area",
+  "amenityDiningTable": "Dining table",
+  "amenityPrivateBathroom": "Private bathroom",
+  "amenitySpacioousTent": "Spacious private tent",
+  "amenityQueenBed": "Queen-size bed",
+  "amenityPremiumLinens": "Premium linens & pillows",
+  "amenityReadingLamps": "Reading lamps",
+  "amenityDressingArea": "Dressing area",
+  "amenityEnsuiteSh": "Ensuite shower",
+  "amenityMultiRoomTent": "Multi-room tent setup",
+  "amenityMultipleBeds": "Multiple beds (2 queen + 2 singles)",
+  "amenityPremiumLinensBasic": "Premium linens",
+  "amenityACAllAreas": "Air conditioning in all areas",
+  "amenityFamilyBathroom": "Family bathroom",
+  "amenitySittingArea": "Sitting area",
+  "amenityPrivateEntrance": "Private entrance",
+  "amenityWiFiAccess": "Wi-Fi access",
+  "amenityStorageAreas": "Storage areas",
+  "pleaseFillIn": "Please fill in",
+  "errorName": "Name",
+  "errorEmail": "Email",
+  "errorValidEmail": "Valid Email",
+  "errorPhone": "Phone Number",
+  "errorValidPhone": "Valid Phone Number",
+  "errorCheckInDate": "Check-In Date",
+  "errorCheckOutDate": "Check-Out Date",
+  "errorGuests": "Number of Guests",
+  "errorRoom": "Room Type",
+  "errorTour": "Tour Selection",
+  "bookingJeepFullDay": "Jeep Tour - Full Day & 1 Night",
+  "bookingJeepHalfDay": "Jeep Tour - Half-Day & 1 Night",
+  "bookingJeep3Hour": "Jeep Tour - 3 Hour & 1 Night",
+  "bookingJeep2Hour": "Jeep Tour - 2 Hour Tour",
+  "bookingCamelSunrise": "Camel Ride - Sunrise/Sunset Ride",
+  "bookingCamelNight": "Camel Ride - Night Ride",
+  "bookingCamelOvernight": "Camel Ride - Half-Day Overnight",
+  "bookingHikingUmm": "Hiking Tour - Jabal Umm Addamy & 1 Night",
+  "bookingHikingBurdah": "Hiking Tour - Burdah Arch Hike & 1 Night"
+}
