@@ -8,7 +8,12 @@ export const flags = [
   { code: "it", label: "Italiano" },
 ];
 
-const toUrl = (path) => new URL(path, import.meta.url).href;
+const imageModules = import.meta.glob("../assets/images/**/*.{jpg,jpeg,jfif,png,JPG,JPEG,JFIF,PNG}", {
+  eager: true,
+  import: "default",
+});
+
+const toUrl = (path) => imageModules[path] ?? `${import.meta.env.BASE_URL}${path.replace("../assets/", "assets/")}`;
 
 const singleRoomImagePaths = [
   "../assets/images/rooms/single/222db0a3-2015-49d6-a742-7e3bebb9a522.jfif",
