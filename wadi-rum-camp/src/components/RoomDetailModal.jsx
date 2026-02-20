@@ -62,16 +62,17 @@ export default function RoomDetailModal({
           <p className="text-sm sm:text-base text-amber-800 leading-relaxed font-light mb-4 sm:mb-6">{selectedRoom.description}</p>
 
           <div className="mb-4 sm:mb-6">
-            <div className="bg-green-50 border border-green-200 rounded-lg p-3 sm:p-4">
-              <h3 className="text-xs sm:text-sm font-medium text-amber-900 mb-2">{t.amenities}</h3>
-              <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1.5 sm:gap-2">
-                {selectedRoom.amenities.map((amenity, i) => (
-                  <li key={i} className="text-amber-800 font-light text-xs sm:text-sm flex items-start">
-                    <span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-2 mt-1 flex-shrink-0"></span>
-                    <span>{amenity}</span>
-                  </li>
-                ))}
-              </ul>
+            <h3 className="text-xs sm:text-sm font-medium text-amber-900 mb-2.5 sm:mb-3">{t.amenities}</h3>
+            <div className="flex flex-wrap gap-2">
+              {selectedRoom.amenities.map((amenity, i) => (
+                <span
+                  key={i}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-50 border border-green-200 rounded-full text-xs sm:text-sm text-amber-800 font-light"
+                >
+                  <span className="w-1.5 h-1.5 bg-green-500 rounded-full flex-shrink-0"></span>
+                  {amenity}
+                </span>
+              ))}
             </div>
           </div>
 
