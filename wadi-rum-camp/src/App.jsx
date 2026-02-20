@@ -26,7 +26,6 @@ export default function App() {
     Array.isArray(t.aboutParagraphs) && t.aboutParagraphs.length > 0
       ? t.aboutParagraphs
       : [t.aboutText];
-  const rtlLangs = new Set(["ar"]);
 
   const [langDropdown, setLangDropdown] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -67,16 +66,10 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const dir = rtlLangs.has(currentLang) ? "rtl" : "ltr";
+    const dir = currentLang === "ar" ? "rtl" : "ltr";
     document.documentElement.setAttribute("dir", dir);
     document.documentElement.setAttribute("lang", currentLang);
-  }, [currentLang, rtlLangs]);
-
-  useEffect(() => {
-    if (selectedTour?.id === 0) {
-      setSelectedJeepVariant("full");
-    }
-  }, [selectedTour]);
+  }, [currentLang]);
 
   const handleChange = (e) =>
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -86,7 +79,7 @@ export default function App() {
 
   const isFormValid = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const phoneRegex = /^[\d\s\-\+\(\)]{7,}$/;
+    const phoneRegex = /^[\d\s()+-]{7,}$/;
     return (
       form.name.trim() &&
       form.email.trim() &&
@@ -103,7 +96,7 @@ export default function App() {
 
   const getMissingFields = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const phoneRegex = /^[\d\s\-\+\(\)]{7,}$/;
+    const phoneRegex = /^[\d\s()+-]{7,}$/;
     const missing = [];
     if (!form.name.trim()) missing.push(t.errorName);
     if (!form.email.trim()) missing.push(t.errorEmail);
@@ -170,14 +163,6 @@ export default function App() {
       console.error('EmailJS Error:', error);
       setNotification('❌ Failed to send. Please try WhatsApp instead.');
     }
-  };
-
-  const handlePrevGallery = () => {
-    setGalleryIndex((prev) => (prev === 0 ? gallery.length - 1 : prev - 1));
-  };
-
-  const handleNextGallery = () => {
-    setGalleryIndex((prev) => (prev === gallery.length - 1 ? 0 : prev + 1));
   };
 
   const googleMapsEmbed =
