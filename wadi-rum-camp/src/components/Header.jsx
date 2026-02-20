@@ -51,7 +51,7 @@ export default function Header({
           </nav>
 
           <div className="flex items-center space-x-2 sm:space-x-4">
-            <div className="hidden md:flex items-center space-x-3">
+            <div className="flex items-center space-x-2 sm:space-x-3">
               <a
                 href={SOCIAL_LINKS.facebook}
                 target="_blank"
@@ -59,7 +59,7 @@ export default function Header({
                 className="text-amber-700 hover:text-amber-900 transition-colors duration-200"
                 title="Facebook"
               >
-                <FaFacebook size={18} />
+                <FaFacebook size={16} className="sm:w-[18px] sm:h-[18px]" />
               </a>
               <a
                 href={SOCIAL_LINKS.instagram}
@@ -68,7 +68,7 @@ export default function Header({
                 className="text-amber-700 hover:text-amber-900 transition-colors duration-200"
                 title="Instagram"
               >
-                <FaInstagram size={18} />
+                <FaInstagram size={16} className="sm:w-[18px] sm:h-[18px]" />
               </a>
             </div>
 
@@ -120,28 +120,6 @@ export default function Header({
                   {item.key === "roomsTitle" ? t.roomsTitle : t[item.key]}
                 </a>
               ))}
-              <div className="flex items-center justify-center gap-6 pt-3 pb-2 border-t border-amber-100 mt-3">
-                <a
-                  href={SOCIAL_LINKS.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-amber-700 hover:text-amber-900 transition-colors duration-200"
-                  title="Facebook"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  <FaFacebook size={24} />
-                </a>
-                <a
-                  href={SOCIAL_LINKS.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-amber-700 hover:text-amber-900 transition-colors duration-200"
-                  title="Instagram"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  <FaInstagram size={24} />
-                </a>
-              </div>
             </nav>
           </div>
         )}
